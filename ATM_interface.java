@@ -26,7 +26,7 @@ public class ATM_interface {
                 option = scanner.nextInt();
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input. Please enter a number.");
-                scanner.next(); // Clear the invalid input
+                scanner.next();
                 continue;
             }
             atm.executeOption(option);
